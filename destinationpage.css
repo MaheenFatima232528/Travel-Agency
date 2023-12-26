@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("/li-river-china-MOSTBEAUTIFUL0921-478c3f1b5c2641a79015eec0223ea0c8.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+}
+
+header {
+    text-align: center;
+    background-color: #262626f8;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.welcome-message {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(25, 25, 25);
+    padding: 
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e96b16; 
+}
+
+.destination-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    background-color: #c27e17;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px;
+    height: 200px;
+    width: calc(50% - 20px); 
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card-content {
+    position: relative;
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    flex: 1;
+}
+
+.card-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: block;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-color: #c8cbcd;
+    color: #c27e17;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}

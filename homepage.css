@@ -1,0 +1,88 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("/Tourists-greet-the-New-Year-on-hot-air-balloons-in-Cappadocia-Turkey.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    color: white; 
+}
+header {
+text-align: center;
+background-color: #262626f8;
+color: white;
+padding: 10px;
+}
+
+.fixed {
+position: fixed;
+top: 0;
+width: 100%
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline;
+margin-right: 20px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+nav a:hover {
+color: #c27e17; 
+}
+.moist {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(23, 23, 23, 0.4); 
+    height: 60vh; 
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center right; 
+}
+.intro {
+    padding: 20px;
+    font-family: "Lucida handwriting", cursive;
+    font-size: 30px;
+}
+
+.testimonials {
+    background-color: rgb(24, 23, 23);
+    padding: 50px 20px; 
+    text-align: center;
+    margin-bottom: 50px; 
+    font-size: 25px;
+}
+
+.testimonial-block {
+    width: 30%;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

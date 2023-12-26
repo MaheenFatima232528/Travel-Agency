@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('C:\\Users\\talha\\demo of vs code\\Ict project\\lightbulbloginpage.jpg');
+    background-size: cover;
+  }
+  
+header {
+  text-align: center;
+  background-color: #262626f8;
+  color: white;
+  padding: 10px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #e96b16;
+}
+
+.login-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+   
+  .login-box {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 30px;
+    background-color: #12121285;
+    border-radius: 15px 0px 0px 15px;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 30px;
+    background-color: #c27e17;
+    border-radius: 0px 15px 15px 0px;
+  }
+  
+  .tagline {
+    text-align: center;
+    color: #c6c4d1;
+    top: 50%;
+  }
+  
+  .login-form {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #303030;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: #303030;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #2f2f33;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #95a3ad;
+  }
+  
+  .or-divider {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .google-login {
+    background-color: #282829;
+  }
+  
